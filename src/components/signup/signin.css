@@ -1,0 +1,110 @@
+
+
+
+/* Signin */
+
+.signin{
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.sign_first{
+  height: 100%;
+
+margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+ 
+}
+.signinbox{
+  padding-top: 5%;
+width: 500px;
+margin: auto;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.google {
+  padding: 15px;
+  background-color: white;
+  width: 100%;
+  border: .1px solid black;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+  width: 100%;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  height: 4em;
+  box-shadow: 0px 0px 15px 0px #b0b0b040;
+cursor: pointer;
+  color: #5f5f5f;
+} 
+.signinbox p{
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+.account_btn{
+  padding: 20px;
+  background: -webkit-linear-gradient(301.26deg, #8884d8 10%, #82ca9d 55%);
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: 550;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.account1{
+  margin-left: 0px;
+}
+.jss5 {
+  width: 100%;
+  margin: 10px 0 20px;
+  text-align: center;
+  line-height: 0.1em;
+  border-bottom: 0.5px solid #DCDCDCCC;
+}
+.jss6 {
+  color: #B1B1B1;
+  padding: 5px 10px;
+  background: #fff;
+  border-radius: 20px;
+}
+.button_wrap{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.signin_btn{
+  cursor: pointer;
+  color: #6E2CDC;
+}
+@media screen and (max-width: 600px) {
+  .account1{
+margin-left:  0px!important;
+  }
+.sign_first{
+  width: 90%;
+}
+.signinbox{
+  padding-top: 20%;
+  width: 100%;
+}
+.div_top{
+  width: 90% !important;
+}
+.fall{
+  margin-left: 0 !important;
+}
+}
